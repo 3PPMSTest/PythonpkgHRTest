@@ -2,15 +2,15 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='example_publish_pypi_medium',
-    version='0.6',
+    name='PythonpkgHRTest',
+    version='0.1',
     license='MIT',
-    author="Giorgos Myrianthous",
-    author_email='email@example.com',
+    author="suryateja",
+    author_email='suryateja.d@gmail.com',
     packages=find_packages('src'),
     package_dir={'': 'src'},
-    url='https://github.com/gmyrianthous/example-publish-pypi',
-    keywords='example project',
+    url='https://github.com/3PPMSTest/PythonpkgHRTest',
+    keywords='PythonpkgHRTest',
     install_requires=[
           'scikit-learn',
       ],
